@@ -1,19 +1,23 @@
+/* Globale reset: verwijder standaard marges en padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Witte achtergrond voor de hele pagina */
 body {
   background: white;
   font-family: Arial, sans-serif;
   color: black;
 }
 
+/* Padding rondom de root container */
 #root {
   padding: 30px;
 }
 
+/* Stijl voor artikel titels */
 h2 {
   font-weight: bold;
   font-size: 2rem;
@@ -21,6 +25,7 @@ h2 {
   margin-bottom: 10px;
 }
 
+/* Stijl voor alineatekst */
 p {
   font-size: 1rem;
   line-height: 1.5;
